@@ -1,6 +1,7 @@
 import zeep
 from loan_app.soap_client import CoreBankingAPIClient
 
+import requests
 
 class CoreBankingService:
     def __init__(self):
